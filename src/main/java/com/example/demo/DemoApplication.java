@@ -14,7 +14,7 @@ public class DemoApplication {
 	public static ApplicationContext applicationContext;
     
 	public static void main(String[] args) {
-		SpringApplication.run(DemoApplication.class, args);
+		applicationContext = SpringApplication.run(DemoApplication.class, args);
 	}
 	
 
